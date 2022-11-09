@@ -37,7 +37,7 @@ System.Console.WriteLine("Введите значение k2");
 double k2 = Convert.ToInt32(Console.ReadLine());                
 
 double x = (b1 - b2)/(k2 - k1);
-double y = k2 * x + b2;                 // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; 5,5)
+double y = k2 * x + b2;               
 
 System.Console.WriteLine($"Точка пресечения двух прямых X:{x}; Y:{y}");
 Console.ReadLine();
